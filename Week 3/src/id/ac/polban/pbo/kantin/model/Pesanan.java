@@ -42,4 +42,8 @@ public class Pesanan {
     public int hitungTotal() {
         return menu.getHarga() * jumlah;
     }
+
+    public String ringkasan() {
+    return "Pesanan #" + nomor + " | Pemesan: " + pemesan.getNama() + " | Menu: " + menu.getNama() + " x" + jumlah + " | Total: Rp" + hitungTotal();
+    }
 }

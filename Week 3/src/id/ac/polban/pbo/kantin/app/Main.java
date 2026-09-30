@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Mahasiswa m1 = new Mahasiswa("241001", "Asep");
         Mahasiswa m2 = new Mahasiswa("241002", "Siti");
+        
 
         MenuItem nasi = new MenuItem("M01", "Nasi Goreng", 18000);
         MenuItem kopi = new MenuItem("M02", "Kopi Susu", 12000);
