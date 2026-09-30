@@ -1,0 +1,19 @@
+# File hasil compile Java - tidak perlu di-commit
+*.class
+
+# Folder output compile
+out/
+bin/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+nbproject/private/
+
+# OS
+.DS_Store
+Thumbs.db
