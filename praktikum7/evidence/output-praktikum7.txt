@@ -1,0 +1,138 @@
+OUTPUT PRAKTIKUM 7 - EXCEPTION HANDLING
+Ananda Firdaus (251511003)
+
+Transcript output yang diambil saat pengerjaan.
+Setiap bagian ditandai dengan step dan versi code yang dipakai.
+
+
+============================================================
+CASE 1 - CountLetters
+============================================================
+
+[Step 1] Code awal, input "JAVA"
+
+Enter a single word (letters only, please): JAVA
+
+A: 2
+J: 1
+V: 1
+
+
+[Step 2] Code awal, input "JAVA PBO!" (tanpa catch)
+
+Enter a single word (letters only, please): JAVA PBO!
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index -33 out of bounds for length 26
+    at CountLetters.main(CountLetters.java:13)
+
+
+[Step 3] catch kosong, input "JAVA PBO!"
+
+Enter a single word (letters only, please):
+A: 2
+B: 1
+J: 1
+O: 1
+P: 1
+V: 1
+
+
+[Step 4] catch menampilkan karakter, input "JAVA PBO!"
+
+Enter a single word (letters only, please): Not a letter:  <-- dua spasi
+Not a letter: !
+
+A: 2
+B: 1
+J: 1
+O: 1
+P: 1
+V: 1
+
+
+============================================================
+CASE 2 - ParseInts
+============================================================
+
+[Step 5a] Code awal, input "10 20 30 40"
+
+Enter a line of text
+The sum of the integers on this line is 100
+
+
+[Step 5b] Code awal, input "We have 2 dogs and 1 cat."
+
+Enter a line of text
+Exception in thread "main" java.lang.NumberFormatException: For input string: "We"
+    at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+    at java.base/java.lang.Integer.parseInt(Integer.java:527)
+    at java.base/java.lang.Integer.parseInt(Integer.java:624)
+    at ParseInts.main(ParseInts.java:12)
+
+
+[Step 6] try-catch di luar while
+
+Input: "We have 2 dogs and 1 cat."
+The sum of the integers on this line is 0
+
+Input: "1 fish 2 fish"
+The sum of the integers on this line is 1
+
+
+[Step 7] try-catch di dalam while
+
+Input: "We have 2 dogs and 1 cat."
+The sum of the integers on this line is 3
+
+Input: "1 fish 2 fish"
+The sum of the integers on this line is 3
+
+Input: "10 20 30 40"
+The sum of the integers on this line is 100
+
+
+============================================================
+CASE 3 - Factorials / MathUtils
+============================================================
+
+[Step 9] Baseline, urutan input 5, 0, -1, 17
+
+Enter an integer: Factorial(5) = 120
+Another factorial? (y/n) Enter an integer: Factorial(0) = 1
+Another factorial? (y/n) Enter an integer: Factorial(-1) = 1
+Another factorial? (y/n) Enter an integer: Factorial(17) = -288522240
+Another factorial? (y/n)
+
+
+[Step 10] throw tanpa catch, input -1
+
+Enter an integer: -1
+Exception in thread "main" java.lang.IllegalArgumentException: factorial tidak didefinisikan untuk bilangan negatif: -1
+    at MathUtils.factorial(MathUtils.java:4)
+    at Factorials.main(Factorials.java:12)
+
+
+[Step 11] catch di dalam loop, urutan input -1 lalu 5
+
+Enter an integer: -1
+Tidak dapat menghitung: factorial tidak didefinisikan untuk bilangan negatif: -1
+Another factorial? (y/n) Enter an integer: 5
+Factorial(5) = 120
+Another factorial? (y/n)
+
+
+[Step 12 dan 13] Dua kondisi throw, urutan input 5, 0, -1, 16, 17
+
+Enter an integer: Factorial(5) = 120
+Another factorial? (y/n) Enter an integer: Factorial(0) = 1
+Another factorial? (y/n) Enter an integer: Tidak dapat menghitung: nilai tidak boleh negatif: -1
+Another factorial? (y/n) Enter an integer: Factorial(16) = 2004189184
+Another factorial? (y/n) Enter an integer: Tidak dapat menghitung: nilai terlalu besar untuk factorial berbasis int: 17
+Another factorial? (y/n)
+
+
+[Pengujian tambahan] Batas overflow sebenarnya, input 12 dan 13
+
+Enter an integer: Factorial(12) = 479001600
+Another factorial? (y/n) Enter an integer: Factorial(13) = 1932053504
+Another factorial? (y/n)
