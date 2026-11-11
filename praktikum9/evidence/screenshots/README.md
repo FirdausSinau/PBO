@@ -8,7 +8,7 @@ Screenshot disimpan di folder ini dengan urutan tahap.
 | `02-first-test-green.png` | Test pertama hijau, `Tests run: 2` | Ada |
 | `03-expected-salah-red.png` | Expected sengaja salah, `160000` vs `150000` | Ada |
 | `04-stage2-green.png` | Test withdraw dan exception hijau, `Tests run: 5` | Ada |
-| `05-withdraw-valid.png` | Test `withdraw_valid_tidakMelempar` hijau | Belum |
+| `05-withdraw-valid.png` | Test `withdraw_valid_tidakMelempar` hijau | Ada |
 | `06-state-integrity-red.png` | Sabotase urutan withdraw, saldo jadi `-100000` | Ada |
 | `07-beforeeach.png` | Kode `@BeforeEach` | Ada |
 | `08-parameterized.png` | `deposit_tidakValid`, 3 invocation hijau | Ada |
@@ -16,7 +16,7 @@ Screenshot disimpan di folder ini dengan urutan tahap.
 | `10-savings-polymorphism.png` | Test `SavingsAccount`, total `Tests run: 17` | Ada |
 | `11-tdd-red.png` | `transfer_targetNull_ditolak` merah, `NullPointerException` | Ada |
 | `12-tdd-green.png` | Setelah perbaikan, `Tests run: 19` hijau | Ada |
-| `13-all-tests-green.png` | `mvn clean test` terakhir, semua hijau | Belum |
+| `13-all-tests-green.png` | `mvn clean test` terakhir, semua hijau | Belum, gunakan `12-tdd-green.png` dan `13-final-test.txt` |
 
 ## Cara screenshot
 
