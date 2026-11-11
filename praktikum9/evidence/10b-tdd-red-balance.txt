@@ -1,0 +1,11 @@
+|  Welcome to JShell -- Version 26.0.2.1
+|  For an introduction type: /help intro
+
+jshell> 
+jshell> sender ==> id.ac.polban.pbo.BankAccount@31cefde0
+
+jshell> Exception: NullPointerException
+
+jshell> Saldo setelah gagal: 80000.0
+
+jshell> |  Goodbye

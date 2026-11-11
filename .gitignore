@@ -4,6 +4,7 @@
 # Folder output compile
 out/
 bin/
+target/
 
 # IDE
 .idea/

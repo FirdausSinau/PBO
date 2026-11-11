@@ -19,3 +19,4 @@ D3 Teknik Informatika - Politeknik Negeri Bandung
 | **5** | Abstract Class & Interface | [`praktikum5/`](praktikum5/) | [`Laporan_PBO5.pdf`](praktikum5/laporan/251511003_Ananda%20Firdaus_Laporan_PBO5.pdf) |
 | **6** | Polymorphism | [`praktikum6/`](praktikum6/) | [`Laporan_PBO6.pdf`](praktikum6/Laporan_PBO6.pdf) |
 | **7** | Exception Handling | [`praktikum7/`](praktikum7/) | [`Laporan_PBO7.pdf`](praktikum7/Laporan_PBO7.pdf) |
+| **9** | Unit Testing dengan JUnit 5 | [`praktikum9/`](praktikum9/) | - |
