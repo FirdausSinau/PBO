@@ -4,10 +4,7 @@
 
 ```text
 praktikum9/
-├── Laporan_PBO9.docx
 ├── Laporan_PBO9.pdf
-├── report/
-│   └── Laporan_PBO9.md
 ├── evidence/
 │   ├── screenshots/
 │   └── *.txt
@@ -23,7 +20,7 @@ praktikum9/
             └── SavingsAccountTest.java
 ```
 
-Laporan tersedia dalam format DOCX dan PDF.
+Laporan final tersedia dalam format PDF.
 
 ## Cara menjalankan
 
