@@ -1,0 +1,5 @@
+C:\Users\anand\AppData\Local\Temp\opencode\w10\GenericTypeError.java:5: error: incompatible types: String cannot be converted to Integer
+        numbers.push("satu");
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

@@ -1,6 +1,12 @@
 # File hasil compile Java - tidak perlu di-commit
 *.class
 
+# Dokumen Word editable - tidak perlu di-commit
+praktikum7/Laporan_PBO7.docx
+praktikum10/report/Laporan_PBO10.docx
+praktikum10/report/Laporan_PBO10.pdf
+praktikum10/belajar/
+
 # Folder output compile
 out/
 bin/

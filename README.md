@@ -20,3 +20,4 @@ D3 Teknik Informatika - Politeknik Negeri Bandung
 | **6** | Polymorphism | [`praktikum6/`](praktikum6/) | [`Laporan_PBO6.pdf`](praktikum6/Laporan_PBO6.pdf) |
 | **7** | Exception Handling | [`praktikum7/`](praktikum7/) | [`Laporan_PBO7.pdf`](praktikum7/Laporan_PBO7.pdf) |
 | **9** | Unit Testing dengan JUnit 5 | [`praktikum9/`](praktikum9/) | [`Laporan_PBO9.pdf`](praktikum9/Laporan_PBO9.pdf) |
+| **10** | Collections - List, Set, dan Generic Stack | [`praktikum10/`](praktikum10/) | [`Laporan_PBO10.pdf`](praktikum10/Laporan_PBO10.pdf) |
