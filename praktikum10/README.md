@@ -5,17 +5,7 @@
 ```text
 praktikum10/
 ├── Laporan_PBO10.pdf
-├── evidence/
-│   ├── task1-output.txt
-│   ├── task2-output.txt
-│   ├── task2-sort-set-error.txt
-│   ├── task3-output.txt
-│   ├── task3-exception-output.txt
-│   └── task3-type-error.txt
-├── report/
-│   ├── Laporan_PBO10.md
-│   ├── Laporan_PBO10.docx
-│   └── build_docx.py
+├── README.md
 └── source/
     ├── task1-student/
     │   ├── Student.java
@@ -28,7 +18,7 @@ praktikum10/
         └── ArrayStackExceptionDemo.java
 ```
 
-Folder `belajar/` adalah ruang latihan bertahap dan bukan bagian dari pengumpulan.
+Folder `evidence/`, `report/`, dan `belajar/` tetap ada di lokal tetapi tidak di-push.
 
 ## Cara menjalankan
 
@@ -65,20 +55,8 @@ java ArrayStackExceptionDemo
 
 ## Laporan
 
-- Final PDF: `Laporan_PBO10.pdf`
-- Source markdown: `report/Laporan_PBO10.md`
-- Builder: `report/build_docx.py`
-- DOCX editable: `report/Laporan_PBO10.docx`
-
-Gaya laporan: Times New Roman 11, Courier New 9 untuk code, tabel 11, justify, tanpa header, footer, atau nomor halaman.
-
-Membangun ulang DOCX:
-
-```powershell
-cd praktikum10/report
-python build_docx.py --body Laporan_PBO10.md --out Laporan_PBO10.docx
-```
+Laporan final tersedia di `Laporan_PBO10.pdf`. Source DOCX, markdown, dan builder disimpan lokal di `report/` dan tidak di-push.
 
 ## Bukti
 
-Output dan error tersimpan di `evidence/`.
+Output dan error disimpan lokal di `evidence/` dan sudah dimasukkan ke laporan.

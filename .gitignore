@@ -3,8 +3,10 @@
 
 # Dokumen Word editable - tidak perlu di-commit
 praktikum7/Laporan_PBO7.docx
-praktikum10/report/Laporan_PBO10.docx
-praktikum10/report/Laporan_PBO10.pdf
+
+# Folder kerja lokal praktikum 10 - tidak perlu di-push
+praktikum10/evidence/
+praktikum10/report/
 praktikum10/belajar/
 
 # Folder output compile

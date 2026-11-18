@@ -1,7 +1,0 @@
-[Singapore, Japan, Malaysia, Thailand, Indonesia]
-Jumlah elemen = 5
-true
-[Singapore, Malaysia, Thailand, Indonesia]
-4
-[Indonesia, Japan, Malaysia]
-[Indonesia, Malaysia, Singapore, Thailand]
