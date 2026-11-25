@@ -21,3 +21,4 @@ D3 Teknik Informatika - Politeknik Negeri Bandung
 | **7** | Exception Handling | [`praktikum7/`](praktikum7/) | [`Laporan_PBO7.pdf`](praktikum7/Laporan_PBO7.pdf) |
 | **9** | Unit Testing dengan JUnit 5 | [`praktikum9/`](praktikum9/) | [`Laporan_PBO9.pdf`](praktikum9/Laporan_PBO9.pdf) |
 | **10** | Collections - List, Set, dan Generic Stack | [`praktikum10/`](praktikum10/) | [`Laporan_PBO10.pdf`](praktikum10/Laporan_PBO10.pdf) |
+| **11** | Java GUI dengan Swing | [`praktikum11/`](praktikum11/) | [`Laporan_PBO11.pdf`](praktikum11/Laporan_PBO11.pdf) |
