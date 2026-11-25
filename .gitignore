@@ -9,6 +9,10 @@ praktikum10/evidence/
 praktikum10/report/
 praktikum10/belajar/
 
+# Folder kerja lokal praktikum 11 - tidak perlu di-push
+praktikum11/evidence/
+praktikum11/report/
+
 # Folder output compile
 out/
 bin/
